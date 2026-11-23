@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Licencias de software</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts/types/license.js" defer></script>
+  <script src="scripts/controllers/licenseController.js" defer></script>
+  <script src="scripts/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Licencias de software</h1>
+    <p>Ejemplo de tienda. Los productos y claves son inventados.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Destacadas</h2>
+      <div id="featured" class="products"></div>
+    </section>
+
+    <section>
+      <h2>Ofertas</h2>
+      <div id="offers" class="products"></div>
+    </section>
+
+    <section>
+      <h2>Últimas versiones</h2>
+      <div id="latest" class="products"></div>
+    </section>
+
+    <section>
+      <h2>Todas las licencias</h2>
+      <label for="softwareFilter">Filtrar por software:</label>
+      <select id="softwareFilter">
+        <option value="">Todos</option>
+      </select>
+      <div id="all" class="products"></div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f2f2f2;
+  color: #222;
+}
+header, section {
+  background: white;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.product {
+  border: 1px solid #aaa;
+  padding: 10px;
+  width: 190px;
+}
+button, select {
+  padding: 6px;
+  margin-top: 6px;
+}
